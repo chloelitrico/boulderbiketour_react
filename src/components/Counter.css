@@ -1,0 +1,71 @@
+.counter_body {
+    background: black url("../images/paolo-candelo-203824-unsplash.jpg") center center no-repeat;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding:10%;
+    border: 10px solid #312F24;
+}
+
+
+.time {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.counter_number {
+    
+    text-transform: uppercase;
+    display: justify;
+    font-size: 100%;
+    font-weight: bolder;
+}
+.counter_text h2 {
+    font-weight:lighter;
+    font-size: 100%;
+}
+@media only screen and (min-width: 992px) {
+    .counter_number {
+    
+        text-transform: uppercase;
+        display: justify;
+        font-size: 70px;
+        font-weight: bolder;
+    }
+    .counter_text h2 {
+        font-size: 90px;
+    }
+}
+
+.counter_label {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.darken-pseudo {
+    position: relative;
+  }
+  
+  .darken-pseudo:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(120, 52, 60, 0.5);
+  }
+
+  .counter_text {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+  }
+  

@@ -1,0 +1,21 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Navbar */
+
+
+.navbar {
+  border-bottom: solid #DB353C;
+}
+.navbar-brand {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0 10px;
+}
+ 

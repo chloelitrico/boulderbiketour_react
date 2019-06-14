@@ -1,0 +1,17 @@
+.rider_info {
+    display: inline-block;
+    margin: 10px 0px 10px 0px;
+}
+
+.all_riders {
+    text-align: center;
+}
+
+#rider_title{
+    color:grey;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    margin:70px 40px 40px 40px;
+}
