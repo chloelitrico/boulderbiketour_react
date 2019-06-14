@@ -13,7 +13,7 @@ class Navigation extends React.Component {
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="mr-auto">
 						<Nav.Link href="/">Home</Nav.Link>
-						<Nav.Link href="#pricing">Media</Nav.Link>
+						<Nav.Link href="/Media">Media</Nav.Link>
 						<NavDropdown title="The Race" id="collasible-nav-dropdown">
 							<NavDropdown.Item href="#">Rider Location</NavDropdown.Item>
 							<NavDropdown.Item href="/Information">Rider Information</NavDropdown.Item>
@@ -22,9 +22,9 @@ class Navigation extends React.Component {
 						</NavDropdown>
 					</Nav>
 					<Nav>
-						<Nav.Link href="#"><i class="fab fa-facebook-f"></i></Nav.Link>
-						<Nav.Link href="#"><i class="fab fa-instagram"></i></Nav.Link>
-						<Nav.Link href="#"><i class="fab fa-twitter"></i></Nav.Link>
+						<Nav.Link href="#"><i className="fab fa-facebook-f"></i></Nav.Link>
+						<Nav.Link href="#"><i className="fab fa-instagram"></i></Nav.Link>
+						<Nav.Link href="#"><i className="fab fa-twitter"></i></Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>

@@ -1,6 +1,6 @@
 import React from "react";
 import no_user from "../images/no-user.jpg";
-import { Card, Button, Container, Row, Col } from "react-bootstrap";
+import { Card, Button, Container } from "react-bootstrap";
 
 
 

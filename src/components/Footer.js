@@ -1,6 +1,5 @@
 import React from "react";
-import Counter from './Counter'
-import { Navbar, Nav, NavDropdown, Jumbotron, Container, Row, Col } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import "./Navigation.css";
 
 
