@@ -22,12 +22,12 @@ class Home extends React.Component {
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="mr-auto">
-						<Nav.Link href="#">Media</Nav.Link>
+						<Nav.Link href="/media">Media</Nav.Link>
 						<NavDropdown title="The Race" id="collasible-nav-dropdown">
-							<NavDropdown.Item href="#">Rider Location</NavDropdown.Item>
+							<NavDropdown.Item href="/Location">Rider Location</NavDropdown.Item>
 							<NavDropdown.Item href="/Information">Rider Information</NavDropdown.Item>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#">Slogan Submission</NavDropdown.Item>
+							<NavDropdown.Item href="/Form">Slogan Submission</NavDropdown.Item>
 						</NavDropdown>
 					</Nav>
 					<Nav>

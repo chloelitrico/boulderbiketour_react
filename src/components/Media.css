@@ -1,3 +1,22 @@
 .flickr_image {
-    width:400px;
+    width:300px;
+    height:300px;
+    display: inline-block;
+    margin: 10px;
+    border:1px #343a40 solid;
+    border-radius: 5px;
+}
+
+.album {
+    text-align: center;
+}
+
+#media_title{
+    color:grey;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    margin:70px 40px 40px 40px;
+    padding-top:50px;
 }

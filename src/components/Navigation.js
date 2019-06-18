@@ -15,10 +15,10 @@ class Navigation extends React.Component {
 						<Nav.Link href="/">Home</Nav.Link>
 						<Nav.Link href="/Media">Media</Nav.Link>
 						<NavDropdown title="The Race" id="collasible-nav-dropdown">
-							<NavDropdown.Item href="#">Rider Location</NavDropdown.Item>
+							<NavDropdown.Item href="/Location">Rider Location</NavDropdown.Item>
 							<NavDropdown.Item href="/Information">Rider Information</NavDropdown.Item>
 							<NavDropdown.Divider />
-							<NavDropdown.Item href="#">Slogan Submission</NavDropdown.Item>
+							<NavDropdown.Item href="/Form">Slogan Submission</NavDropdown.Item>
 						</NavDropdown>
 					</Nav>
 					<Nav>
