@@ -15,7 +15,7 @@ class Rider extends React.Component {
                     <Card.Text>
                     <i class="fas fa-map-marker-alt"></i> {this.props.rider.city}, {this.props.rider.state}
                     </Card.Text>
-                    <Button variant="danger" href='/'>Find Location</Button>
+                    <Button variant="danger" href='/Location'>Find Location</Button>
                 </Card.Body>
                 </Card>
 			</Container>

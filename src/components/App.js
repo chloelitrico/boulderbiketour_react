@@ -7,6 +7,7 @@ import Information from './Information'
 import Media from './Media'
 import Location from './Location'
 import Form from './Form'
+import Thankyou from './Thankyou'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Media" component={Media} />
           <Route path="/Location" component={Location} />
           <Route path="/Form" component={Form} />
+          <Route path="/thankyou" component={Thankyou} />
           <Route component={Error} />
       </Switch>
       <Footer />

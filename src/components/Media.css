@@ -1,3 +1,21 @@
+#page-numbers {
+    padding-top: 50px;
+    list-style: none;
+}
+  
+#page-numbers > li {
+    margin-right: 2em;
+    color: #DB353C;
+    display:inline-block;
+    user-select: none;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+#page-numbers > li:hover {
+    color:grey
+}
+
 .flickr_image {
     width:300px;
     height:300px;
@@ -6,6 +24,11 @@
     border:1px #343a40 solid;
     border-radius: 5px;
 }
+
+.image_container {
+    display: inline-block;
+}
+
 
 .album {
     text-align: center;

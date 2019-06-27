@@ -1,0 +1,33 @@
+#form_title{
+    color:#fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    margin:50px 10px 40px 10px;
+    padding-top:30px;
+    
+}
+
+#form_p{
+    text-align: center;
+    padding:10px 15% 50px 15%;
+    color:#fff;
+}
+
+#form_background{
+    background: white url("../images/victor-xok-Gi0OMNguFaw-unsplash.jpg") center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.form-label{
+    color:rgba(225,225,225, 0.8);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.form-control{
+    background-color:rgba(225,225,225, 0.8) !important;
+}

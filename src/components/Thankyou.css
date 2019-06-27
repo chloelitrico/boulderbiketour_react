@@ -1,0 +1,26 @@
+#thankyou_title{
+    color:#fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    margin:50px 10px 40px 10px;
+    padding-top:30px;
+    
+}
+
+#thankyou_p{
+    text-align: center;
+    padding:10px 15% 50px 15%;
+    color:#fff;
+}
+
+#thankyou_background{
+    background: white url("../images/victor-xok-Gi0OMNguFaw-unsplash.jpg") center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    height:100vh; 
+}
