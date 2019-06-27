@@ -2,6 +2,9 @@
   "name": "boulderbiketour",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node" : "11.2.0"
+  },
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
