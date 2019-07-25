@@ -14,7 +14,7 @@ class Navigation extends React.Component {
 					<Nav className="mr-auto">
 						<Nav.Link href="/">Home</Nav.Link>
 						<Nav.Link href="/Media">Media</Nav.Link>
-						<NavDropdown title="The Race" id="collasible-nav-dropdown">
+						<NavDropdown title="The Race" >
 							<NavDropdown.Item href="/Location">Rider Location</NavDropdown.Item>
 							<NavDropdown.Item href="/Information">Rider Information</NavDropdown.Item>
 							<NavDropdown.Divider />

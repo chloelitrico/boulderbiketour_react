@@ -18,11 +18,13 @@ class Media extends React.Component {
         .then(response => response.json()) 
         .then(function(result){
             let picArray = result.photos.photo.map((pic) => {
+              if (pic.farm != 0) {
                 var srcPath = 'https://farm'+pic.farm+'.staticflickr.com/'+pic.server+'/'+pic.id+'_'+pic.secret+'.jpg';
+                
                 return(
                     <div className="flickr_image" key={pic.id} style={{background:`url(${srcPath}) no-repeat center center`, backgroundSize: `cover`}}>
                     </div>
-                )
+                )}
             })
             this.setState({pictures: picArray});
             

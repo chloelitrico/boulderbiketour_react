@@ -8,16 +8,8 @@ class SloganForm extends React.Component {
     constructor() {
         super();
         this.handleSubmit = this.handleSubmit.bind(this);
-    
     }
 
-    state = {
-        first_name: '',
-        last_name: '',
-        email: '',  
-        description: ''
-    }
-    
     handleChange = event => {
         this.setState({ [event.target.name]: event.target.value });
       }
@@ -72,7 +64,7 @@ will be presented along with a slogan and it could be yours! Enter the contest f
 
                 <Form.Group controlId="formGridSlogan">
                     <Form.Label>Slogan</Form.Label>
-                    <Form.Control required onChange={this.handleChange} as="textarea" rows="3" id="description" name="description" placeholder="Enter your slogan"/>
+                    <Form.Control required onChange={this.handleChange} as="textarea" rows="3" id="description" name="description" placeholder="Enter your slogan" maxLength={50}/>
                 </Form.Group>
 
                 <Button variant="danger" type="submit">
